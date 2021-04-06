@@ -1,0 +1,46 @@
+{
+    "AirTicketRQ": {
+        "version": "1.2.1",
+        "targetCity": "XXXX",
+        "DesignatePrinter": {
+            "Printers": {
+                "Ticket": {
+                    "CountryCode": "BD"
+                },
+                "Hardcopy": {
+                    "LNIATA": "XXXXXX"
+                }
+            }
+        },
+        "Itinerary": {
+            "ID": "UUKOFQ"
+        },
+        "Ticketing": [
+            {
+                "PricingQualifiers": {
+                    "PriceQuote": [
+                        {
+                            "NameSelect": [
+                                {
+                                    "NameNumber": 1
+                                }
+                            ],
+                            "Record": [
+                                {
+                                    "Number": 1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "PostProcessing": {
+            "EndTransaction": {
+                "Source": {
+                    "ReceivedFrom": "SKYTRIP WEB"
+                }
+            }
+        }
+    }
+}

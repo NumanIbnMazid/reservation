@@ -1,0 +1,199 @@
+{
+    "body": {
+        "ExistedToken": {
+            "access_token": "T1RLAQIhk4Itu2+8AfY5nv+3AkWnf+SbKRAuY5ZNtp1rZa8TlsQxmcI2AACwlT5FJT5tQ3VNaDAdp/ewWnPirmeF0fPFs4TBUMQx8Ef3YlWidSzax1atWy27O+Te31g6KMF9PuDUS+sInVTXE6yvp8yOnUYqEh3zSzWFDapCWqIM3xBnVYMTt9PoP74KSUw8lgolAq9W3rnrUl3C7x1QkBHe+t+JMe54qloB35xrOJorlKbt1JU9cWxYeNQvyosgQT933HYjYOdkeKeqYYBZsXXVXLGm9S20f0/NQNg*",
+            "token_type": "bearer",
+            "expires_in": 604800,
+            "expires": 1607859640.0860631
+        },
+        "RequestLOG": false,
+        "RequestBody": {
+            "ContactNumber": [
+                {
+                    "NameNumber": "1.1",
+                    "Phone": "202-555-0131",
+                    "PhoneUseType": "H"
+                }
+            ],
+            "Email": [
+                {
+                    "NameNumber": "1.1",
+                    "Address": "smith@gmail.com"
+                }
+            ],
+            "PersonName": [
+                {
+                    "NameNumber": "1.1",
+                    "NameReference": "ABC123",
+                    "PassengerType": "ADT",
+                    "GivenName": "THOMAS MILLER",
+                    "Surname": "SMITH",
+                    "DateOfBirth": "1990-12-13",
+                    "Gender": "M"
+                }
+            ],
+            "AdvancePassenger": [
+                {
+                    "Document": {
+                        "Number": "S1234567G",
+                        "IssueCountry": "BGD",
+                        "NationalityCountry": "BGD",
+                        "ExpirationDate": "2025-12-12",
+                        "Type": "P"
+                    },
+                    "PersonName": {
+                        "NameNumber": "1.1",
+                        "GivenName": "THOMAS MILLER",
+                        "MiddleName": "",
+                        "Surname": "SMITH",
+                        "DateOfBirth": "1990-12-13",
+                        "Gender": "M"
+                    },
+                    "SegmentNumber": "A"
+                }
+            ],
+            "Service": [
+                {
+                    "PersonName": {
+                        "NameNumber": "1.1"
+                    },
+                    "SegmentNumber": "A",
+                    "SSR_Code": "WCHC",
+                    "Text": "UNABLE TO WALK",
+                    "VendorPrefs": {
+                        "Airline": {
+                            "Hosted": false
+                        }
+                    }
+                }
+            ],
+            "OriginDestinationInformation": [
+                {
+                    "DepartureDateTime": "2021-02-07T20:00:00",
+                    "OriginLocation": {
+                        "LocationCode": "DAC"
+                    },
+                    "DestinationLocation": {
+                        "LocationCode": "BAH"
+                    },
+                    "RPH": "0"
+                }
+            ],
+            "LegDescription": [
+                {
+                    "DepartureDate": "2021-02-07",
+                    "DepartureLocation": "DAC",
+                    "ArrivalLocation": "BAH"
+                }
+            ],
+            "TargetItinerary": {
+                "ID": 1,
+                "GDS": "Sabre",
+                "ScheduleDescription": [
+                    {
+                        "NoOfStoppage": 0,
+                        "ETicketable": true,
+                        "TotalDistanceInMiles": 1338,
+                        "Departure": {
+                            "Airport": "DAC",
+                            "City": "DAC",
+                            "Country": "BD",
+                            "Time": "13:00:00+06:00",
+                            "Terminal": "",
+                            "DateAdjustment": 0
+                        },
+                        "Arrival": {
+                            "Airport": "CMB",
+                            "City": "CMB",
+                            "Country": "LK",
+                            "Time": "15:55:00+05:30",
+                            "Terminal": "",
+                            "DateAdjustment": 0
+                        },
+                        "Carrier": {
+                            "OperatingCarrierCode": "UL",
+                            "OperatingFlightNumber": 190,
+                            "MarketingCarrierCode": "UL",
+                            "MarketingFlightNumber": 190
+                        }
+                    },
+                    {
+                        "NoOfStoppage": 0,
+                        "ETicketable": true,
+                        "TotalDistanceInMiles": 2330,
+                        "Departure": {
+                            "Airport": "CMB",
+                            "City": "CMB",
+                            "Country": "LK",
+                            "Time": "18:30:00+05:30",
+                            "Terminal": "",
+                            "DateAdjustment": 0
+                        },
+                        "Arrival": {
+                            "Airport": "BAH",
+                            "City": "BAH",
+                            "Country": "BH",
+                            "Time": "21:20:00+03:00",
+                            "Terminal": "",
+                            "DateAdjustment": 0
+                        },
+                        "Carrier": {
+                            "OperatingCarrierCode": "UL",
+                            "OperatingFlightNumber": 201,
+                            "MarketingCarrierCode": "UL",
+                            "MarketingFlightNumber": 201
+                        }
+                    }
+                ],
+                "PassengerInfo": [
+                    {
+                        "PassengerType": "ADT",
+                        "PassengerNumber": 1,
+                        "NonRefundable": false,
+                        "FareDescription": [
+                            {
+                                "NotValidAfter": "2021-02-07",
+                                "NotValidBefore": "2021-02-07",
+                                "Segment": [
+                                    {
+                                        "CabinClass": "Economy",
+                                        "SeatsAvailable": 7,
+                                        "BookingCode": "R",
+                                        "MealCode": "H"
+                                    },
+                                    {
+                                        "CabinClass": "Economy",
+                                        "SeatsAvailable": 7,
+                                        "BookingCode": "R",
+                                        "MealCode": "H"
+                                    }
+                                ]
+                            }
+                        ],
+                        "BaggageDescription": [
+                            {
+                                "NumberOfPieces": "",
+                                "MaxWeight": 30,
+                                "Unit": "kg"
+                            }
+                        ],
+                        "PassengerTotalFare": {
+                            "TotalFare": 30920,
+                            "TotalTaxAmount": 7512,
+                            "Currency": "BDT",
+                            "BaseFareAmount": 278.0,
+                            "BaseFareCurrency": "USD"
+                        }
+                    }
+                ],
+                "TotalFare": {
+                    "FareCurrency": "BDT",
+                    "TotalFare": 30920,
+                    "BaseFare": 278.0,
+                    "Tax": 7512,
+                    "TaxCurrency": "BDT"
+                }
+            }
+        }
+    }
+}

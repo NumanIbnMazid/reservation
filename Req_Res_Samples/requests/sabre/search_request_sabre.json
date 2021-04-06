@@ -1,0 +1,70 @@
+{
+    "OTA_AirLowFareSearchRQ": {
+        "OriginDestinationInformation": [
+            {
+                "DepartureDateTime": "2021-04-17T23:00:00",
+                "OriginLocation": {
+                    "LocationCode": "DAC"
+                },
+                "DestinationLocation": {
+                    "LocationCode": "DXB"
+                },
+                "RPH": "0",
+                "TPA_Extensions": {
+                    "CabinPref": {
+                        "Cabin": "Y"
+                    }
+                }
+            }
+        ],
+        "POS": {
+            "Source": [
+                {
+                    "PseudoCityCode": "XXXX",
+                    "RequestorID": {
+                        "CompanyName": {
+                            "Code": "XX"
+                        },
+                        "ID": "1",
+                        "Type": "1"
+                    }
+                }
+            ]
+        },
+        "TPA_Extensions": {
+            "IntelliSellTransaction": {
+                "RequestType": {
+                    "Name": "200ITINS"
+                }
+            }
+        },
+        "TravelPreferences": {
+            "TPA_Extensions": {
+                "DataSources": {
+                    "ATPCO": "Enable",
+                    "LCC": "Disable",
+                    "NDC": "Disable"
+                },
+                "NumTrips": {}
+            }
+        },
+        "TravelerInfoSummary": {
+            "AirTravelerAvail": [
+                {
+                    "PassengerTypeQuantity": [
+                        {
+                            "Code": "ADT",
+                            "Quantity": 1
+                        }
+                    ]
+                }
+            ],
+            "SeatsRequested": [
+                1
+            ]
+        },
+        "Version": "1",
+        "DirectFlightsOnly": false,
+        "AvailableFlightsOnly": false
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "statusCode": 400,
+    "body": {
+        "token": {
+            "access_token": "T1RLAQL3RPZA9yvHzMtK1/m7MMWUIXoMMBDcT5x2dHK2m13VxRQOIPHqAADAS2SeJp2cIA/b2NmPnnVSDxGrTbaXq0FE4G7nKhnQLijlWwDxA/CtdiVnfUq37Fu3bpYv9u7iWmzv82WbIMvUWr6hn7tFU/jZ32iBy8SRSwduP7U2b7Rbbw9X2wS0fIC2McZqEKNc57NNTPTlVnf9BUluhChI7sNqrqzFcxhHTAaisywu3BMdT8jqrPRlaaeMCqfxJ6opCeOUB+P+f7vVDMiDadrXGvPd9EXRaNTYLeSf2+/m10OcBQyaYLKaitV3",
+            "token_type": "bearer",
+            "expires_in": 604800,
+            "expires": 1616997963.0937102
+        },
+        "responseData": {
+            "CreatePassengerNameRecordRS": {
+                "ApplicationResults": {
+                    "status": "Incomplete",
+                    "Error": [
+                        {
+                            "type": "Application",
+                            "timeStamp": "2021-03-24T01:14:00.439-05:00",
+                            "SystemSpecificResults": [
+                                {
+                                    "Message": [
+                                        {
+                                            "code": "ERR.SP.PROVIDER_ERROR",
+                                            "content": "Unable to perform air booking step"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "Warning": [
+                        {
+                            "type": "BusinessLogic",
+                            "timeStamp": "2021-03-24T01:14:00.439-05:00",
+                            "SystemSpecificResults": [
+                                {
+                                    "Message": [
+                                        {
+                                            "code": "WARN.SP.HALT_ON_STATUS_RECEIVED",
+                                            "content": "EnhancedAirBookRQ: Specified HaltOnStatus Received - Processing Aborted"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "AirBook": {
+                    "OriginDestinationOption": {
+                        "FlightSegment": [
+                            {
+                                "ArrivalDateTime": "04-17T05:05",
+                                "DepartureDateTime": "04-17T01:45",
+                                "eTicket": true,
+                                "FlightNumber": "0420",
+                                "NumberInParty": "001",
+                                "ResBookDesigCode": "V",
+                                "Status": "NN",
+                                "DestinationLocation": {
+                                    "LocationCode": "KWI"
+                                },
+                                "MarketingAirline": {
+                                    "Code": "KU",
+                                    "FlightNumber": "0420"
+                                },
+                                "OriginLocation": {
+                                    "LocationCode": "DAC"
+                                }
+                            },
+                            {
+                                "ArrivalDateTime": "04-17T12:10",
+                                "DepartureDateTime": "04-17T09:20",
+                                "eTicket": true,
+                                "FlightNumber": "0671",
+                                "NumberInParty": "001",
+                                "ResBookDesigCode": "V",
+                                "Status": "NN",
+                                "DestinationLocation": {
+                                    "LocationCode": "DXB"
+                                },
+                                "MarketingAirline": {
+                                    "Code": "KU",
+                                    "FlightNumber": "0671"
+                                },
+                                "OriginLocation": {
+                                    "LocationCode": "KWI"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "Links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.test.sabre.com/v2.3.0/passenger/records?mode=create"
+                },
+                {
+                    "rel": "linkTemplate",
+                    "href": "https://api.test.sabre.com/<version>/passenger/records?mode=<mode>"
+                }
+            ]
+        }
+    }
+}

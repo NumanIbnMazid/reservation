@@ -1,0 +1,63 @@
+{
+    "AirTicketRS": {
+        "ApplicationResults": {
+            "status": "Incomplete",
+            "Error": [
+                {
+                    "type": "Application",
+                    "timeStamp": "2021-02-11T05:28:44.435-06:00",
+                    "SystemSpecificResults": [
+                        {
+                            "Message": [
+                                {
+                                    "code": "ERR.SP.PROVIDER_ERROR",
+                                    "content": "No new tickets have been issued"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Warning": [
+                {
+                    "type": "Application",
+                    "timeStamp": "2021-02-11T05:28:44.345-06:00",
+                    "SystemSpecificResults": [
+                        {
+                            "Message": [
+                                {
+                                    "code": "WARN.SP.PROVIDER_ERROR",
+                                    "content": "AirTicketLLS failed for /Ticketing[1] with Cause: AirTicketLLSRQ: \u0087INVALID PQ NUMBER-0133\u0087"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Application",
+                    "timeStamp": "2021-02-11T05:28:44.435-06:00",
+                    "SystemSpecificResults": [
+                        {
+                            "Message": [
+                                {
+                                    "code": "WARN.SP.PROVIDER_ERROR",
+                                    "content": "TicketingDocumentServicesRQ: No new tickets have been issued"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "Links": [
+        {
+            "rel": "self",
+            "href": "https://api.test.sabre.com/v1.2.1/air/ticket"
+        },
+        {
+            "rel": "linkTemplate",
+            "href": "https://api.test.sabre.com/<version>/air/ticket"
+        }
+    ]
+}

@@ -1,0 +1,196 @@
+{
+    "CreatePassengerNameRecordRQ": {
+        "version": "2.3.0",
+        "targetCity": "XXXX",
+        "haltOnAirPriceError": false,
+        "TravelItineraryAddInfo": {
+            "AgencyInfo": {
+                "Address": {
+                    "AddressLine": "Skytrip",
+                    "CityName": "Dhaka",
+                    "CountryCode": "BD",
+                    "PostalCode": "1217",
+                    "StateCountyProv": {
+                        "StateCode": ""
+                    },
+                    "StreetNmbr": "Example Street Address"
+                },
+                "Ticketing": {
+                    "TicketType": "7TAW"
+                }
+            },
+            "CustomerInfo": {
+                "ContactNumbers": {
+                    "ContactNumber": [
+                        {
+                            "NameNumber": "1.1",
+                            "Phone": "4574675236431",
+                            "PhoneUseType": "H"
+                        }
+                    ]
+                },
+                "Email": [
+                    {
+                        "NameNumber": "1.1",
+                        "Address": "wilson@gmail.com"
+                    }
+                ],
+                "PersonName": [
+                    {
+                        "NameNumber": "1.1",
+                        "Infant": false,
+                        "NameReference": "",
+                        "PassengerType": "ADT",
+                        "GivenName": "EDWARD JACKSON MR",
+                        "Surname": "WILSON"
+                    }
+                ]
+            }
+        },
+        "AirBook": {
+            "HaltOnStatus": [
+                {
+                    "Code": "HL"
+                },
+                {
+                    "Code": "KK"
+                },
+                {
+                    "Code": "LL"
+                },
+                {
+                    "Code": "NN"
+                },
+                {
+                    "Code": "NO"
+                },
+                {
+                    "Code": "UC"
+                },
+                {
+                    "Code": "US"
+                }
+            ],
+            "OriginDestinationInformation": {
+                "FlightSegment": [
+                    {
+                        "DepartureDateTime": "2021-04-17T01:45:00",
+                        "ArrivalDateTime": "2021-04-17T05:05:00",
+                        "FlightNumber": "420",
+                        "NumberInParty": "1",
+                        "ResBookDesigCode": "V",
+                        "Status": "NN",
+                        "OriginLocation": {
+                            "LocationCode": "DAC"
+                        },
+                        "DestinationLocation": {
+                            "LocationCode": "KWI"
+                        },
+                        "MarketingAirline": {
+                            "Code": "KU",
+                            "FlightNumber": "420"
+                        }
+                    },
+                    {
+                        "DepartureDateTime": "2021-04-17T09:35:00",
+                        "ArrivalDateTime": "2021-04-17T12:35:00",
+                        "FlightNumber": "671",
+                        "NumberInParty": "1",
+                        "ResBookDesigCode": "V",
+                        "Status": "NN",
+                        "OriginLocation": {
+                            "LocationCode": "KWI"
+                        },
+                        "DestinationLocation": {
+                            "LocationCode": "DXB"
+                        },
+                        "MarketingAirline": {
+                            "Code": "KU",
+                            "FlightNumber": "671"
+                        }
+                    }
+                ]
+            },
+            "RedisplayReservation": {
+                "NumAttempts": 10,
+                "WaitInterval": 300
+            }
+        },
+        "AirPrice": [
+            {
+                "PriceRequestInformation": {
+                    "Retain": true,
+                    "OptionalQualifiers": {
+                        "FOP_Qualifiers": {
+                            "BasicFOP": {
+                                "Type": "INV"
+                            }
+                        },
+                        "PricingQualifiers": {
+                            "PassengerType": [
+                                {
+                                    "Code": "ADT",
+                                    "Quantity": "1"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "SpecialReqDetails": {
+            "SpecialService": {
+                "SpecialServiceInfo": {
+                    "AdvancePassenger": [
+                        {
+                            "Document": {
+                                "Number": "1XF74875",
+                                "IssueCountry": "BGD",
+                                "NationalityCountry": "BGD",
+                                "ExpirationDate": "2022-06-14",
+                                "Type": "P"
+                            },
+                            "PersonName": {
+                                "NameNumber": "1.1",
+                                "GivenName": "EDWARDJACKSON",
+                                "MiddleName": "",
+                                "Surname": "WILSON",
+                                "DateOfBirth": "1991-04-04",
+                                "Gender": "M"
+                            },
+                            "SegmentNumber": "A"
+                        }
+                    ],
+                    "SecureFlight": [
+                        {
+                            "PersonName": {
+                                "NameNumber": "1.1",
+                                "GivenName": "EDWARD JACKSON",
+                                "Surname": "WILSON",
+                                "DateOfBirth": "1991-04-04",
+                                "Gender": "M"
+                            },
+                            "SegmentNumber": "A",
+                            "VendorPrefs": {
+                                "Airline": {
+                                    "Hosted": false
+                                }
+                            }
+                        }
+                    ],
+                    "Service": []
+                }
+            }
+        },
+        "PostProcessing": {
+            "EndTransaction": {
+                "Source": {
+                    "ReceivedFrom": "SKYTRIP WEB"
+                }
+            },
+            "RedisplayReservation": {
+                "waitInterval": 100
+            }
+        }
+    }
+}

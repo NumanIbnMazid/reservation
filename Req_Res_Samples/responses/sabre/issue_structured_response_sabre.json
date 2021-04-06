@@ -1,0 +1,74 @@
+{
+    "statusCode": 400,
+    "body": {
+        "token": {
+            "access_token": "T1RLAQKCsX/6HtxO4+o6cn7Cx0G1cBaffxByE7x7bvzPiIQVnvFIWuCYAADAOJwwnPe3crUt6PSMOSpbv1NO6faCEHKt5Yp260YDFpHw/faqHelaIGzbQZackm/bm7/LlRGTmuWw8dPICeRPuMFpSG8cIGVuKP6uRlpw+/WVfEEidEGgbB42/dfIrFZdBKq8wphQcwG2H8sjf5y1lSfQDp14wzgYQyxz5aZCOvTYPUJvrLAX/CWKIXOD6ojGastUb70AK0kMR2Bv7vxCqeOSk+5tMHZu4IyFESKi2FtjJwKDnnGQUhituUTZB7Dp",
+            "token_type": "bearer",
+            "expires_in": 604800,
+            "expires": 1613644757.8874989
+        },
+        "responseData": {
+            "AirTicketRS": {
+                "ApplicationResults": {
+                    "status": "Incomplete",
+                    "Error": [
+                        {
+                            "type": "Application",
+                            "timeStamp": "2021-02-11T05:28:44.435-06:00",
+                            "SystemSpecificResults": [
+                                {
+                                    "Message": [
+                                        {
+                                            "code": "ERR.SP.PROVIDER_ERROR",
+                                            "content": "No new tickets have been issued"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "Warning": [
+                        {
+                            "type": "Application",
+                            "timeStamp": "2021-02-11T05:28:44.345-06:00",
+                            "SystemSpecificResults": [
+                                {
+                                    "Message": [
+                                        {
+                                            "code": "WARN.SP.PROVIDER_ERROR",
+                                            "content": "AirTicketLLS failed for /Ticketing[1] with Cause: AirTicketLLSRQ: \u0087INVALID PQ NUMBER-0133\u0087"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Application",
+                            "timeStamp": "2021-02-11T05:28:44.435-06:00",
+                            "SystemSpecificResults": [
+                                {
+                                    "Message": [
+                                        {
+                                            "code": "WARN.SP.PROVIDER_ERROR",
+                                            "content": "TicketingDocumentServicesRQ: No new tickets have been issued"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "Links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.test.sabre.com/v1.2.1/air/ticket"
+                },
+                {
+                    "rel": "linkTemplate",
+                    "href": "https://api.test.sabre.com/<version>/air/ticket"
+                }
+            ]
+        }
+    }
+}

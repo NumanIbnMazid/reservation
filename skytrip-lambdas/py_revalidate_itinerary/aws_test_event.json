@@ -1,0 +1,54 @@
+{
+    "body": {
+        "ExistedToken": {
+            "access_token": "T1RLAQJNKrih+0y382WkPaUGqypnR0XC2xC6Z+eWFaV9KUEY3Jng9KkcAADAO3+Puyv18M2k8eexiMZIBEWBBFW+VY8i7HH3pqPbHs2fW+D2OM7n3BxOrb1S0d6n7JdhMY5F8XG0XycA2qXJ6wHhSCSTTVYgusbcDx+xLbShmIl0pT6HDjaEKJ75EcrF7AuE8ylD0PYDm6GByOff0dwYXHT4RHOK8okOzNpwj71a4yRrDYNJyIPkDWTDiGszrNhtY4fCVoxddmkEWY3gs6zP1FuHg9MLzslWFDZFlpAjFA9+zCQSJEfckH9Rp9gG",
+            "token_type": "bearer",
+            "expires_in": 604800,
+            "expires": 1601439913.8355422
+        },
+        "RequireUTILS": true,
+        "RequestBody": {
+            "OriginDestinationInformation": [
+                {
+                    "DepartureDateTime": "2020-12-23T20:00:00",
+                    "OriginLocation": {
+                        "LocationCode": "DAC"
+                    },
+                    "DestinationLocation": {
+                        "LocationCode": "BAH"
+                    },
+                    "RPH": "1",
+                    "Flight": [
+                        {
+                            "Number": 190,
+                            "DepartureDateTime": "2020-12-23T14:05:00",
+                            "ArrivalDateTime": "2020-12-23T17:00:00",
+                            "Type": "A",
+                            "ClassOfService": "I",
+                            "OriginLocation": {
+                                "LocationCode": "DAC"
+                            },
+                            "DestinationLocation": {
+                                "LocationCode": "CMB"
+                            },
+                            "Airline": {
+                                "Operating": "UL",
+                                "Marketing": "UL"
+                            },
+                            "BookingDateTime": "2020-12-13T11:00:00"
+                        }
+                    ]
+                }
+            ],
+            "PassengerTypeQuantity": [
+                {
+                    "Code": "ADT",
+                    "Quantity": 1
+                }
+            ],
+            "TicketClass": "Y",
+            "DirectFlightsOnly": false,
+            "AvailableFlightsOnly": false
+        }
+    }
+}

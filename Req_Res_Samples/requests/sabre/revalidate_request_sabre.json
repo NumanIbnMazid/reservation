@@ -1,0 +1,105 @@
+{
+    "OTA_AirLowFareSearchRQ": {
+        "OriginDestinationInformation": [
+            {
+                "DepartureDateTime": "2021-04-17T23:00:00",
+                "OriginLocation": {
+                    "LocationCode": "DAC"
+                },
+                "DestinationLocation": {
+                    "LocationCode": "DXB"
+                },
+                "RPH": "0",
+                "TPA_Extensions": {
+                    "Flight": [
+                        {
+                            "Number": 420,
+                            "DepartureDateTime": "2021-04-17T01:45:00",
+                            "ArrivalDateTime": "2021-04-17T05:05:00",
+                            "Type": "A",
+                            "ClassOfService": "V",
+                            "OriginLocation": {
+                                "LocationCode": "DAC"
+                            },
+                            "DestinationLocation": {
+                                "LocationCode": "KWI"
+                            },
+                            "Airline": {
+                                "Operating": "KU",
+                                "Marketing": "KU"
+                            },
+                            "BookingDateTime": "2021-03-22T12:25:11"
+                        },
+                        {
+                            "Number": 671,
+                            "DepartureDateTime": "2021-04-17T09:35:00",
+                            "ArrivalDateTime": "2021-04-17T12:35:00",
+                            "Type": "A",
+                            "ClassOfService": "V",
+                            "OriginLocation": {
+                                "LocationCode": "KWI"
+                            },
+                            "DestinationLocation": {
+                                "LocationCode": "DXB"
+                            },
+                            "Airline": {
+                                "Operating": "KU",
+                                "Marketing": "KU"
+                            },
+                            "BookingDateTime": "2021-03-22T12:25:11"
+                        }
+                    ]
+                }
+            }
+        ],
+        "POS": {
+            "Source": [
+                {
+                    "PseudoCityCode": "XXXX",
+                    "RequestorID": {
+                        "CompanyName": {
+                            "Code": "XX"
+                        },
+                        "ID": "1",
+                        "Type": "1"
+                    }
+                }
+            ]
+        },
+        "TPA_Extensions": {
+            "IntelliSellTransaction": {
+                "RequestType": {
+                    "Name": "200ITINS"
+                }
+            }
+        },
+        "TravelPreferences": {
+            "TPA_Extensions": {
+                "DataSources": {
+                    "ATPCO": "Enable",
+                    "LCC": "Disable",
+                    "NDC": "Disable"
+                },
+                "NumTrips": {}
+            }
+        },
+        "TravelerInfoSummary": {
+            "AirTravelerAvail": [
+                {
+                    "PassengerTypeQuantity": [
+                        {
+                            "Code": "ADT",
+                            "Quantity": 1
+                        }
+                    ]
+                }
+            ],
+            "SeatsRequested": [
+                1
+            ]
+        },
+        "Version": "1",
+        "DirectFlightsOnly": false,
+        "AvailableFlightsOnly": false
+    }
+}

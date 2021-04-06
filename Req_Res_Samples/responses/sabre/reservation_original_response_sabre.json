@@ -1,0 +1,93 @@
+{
+    "CreatePassengerNameRecordRS": {
+        "ApplicationResults": {
+            "status": "Incomplete",
+            "Error": [
+                {
+                    "type": "Application",
+                    "timeStamp": "2021-03-24T01:14:00.439-05:00",
+                    "SystemSpecificResults": [
+                        {
+                            "Message": [
+                                {
+                                    "code": "ERR.SP.PROVIDER_ERROR",
+                                    "content": "Unable to perform air booking step"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Warning": [
+                {
+                    "type": "BusinessLogic",
+                    "timeStamp": "2021-03-24T01:14:00.439-05:00",
+                    "SystemSpecificResults": [
+                        {
+                            "Message": [
+                                {
+                                    "code": "WARN.SP.HALT_ON_STATUS_RECEIVED",
+                                    "content": "EnhancedAirBookRQ: Specified HaltOnStatus Received - Processing Aborted"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "AirBook": {
+            "OriginDestinationOption": {
+                "FlightSegment": [
+                    {
+                        "ArrivalDateTime": "04-17T05:05",
+                        "DepartureDateTime": "04-17T01:45",
+                        "eTicket": true,
+                        "FlightNumber": "0420",
+                        "NumberInParty": "001",
+                        "ResBookDesigCode": "V",
+                        "Status": "NN",
+                        "DestinationLocation": {
+                            "LocationCode": "KWI"
+                        },
+                        "MarketingAirline": {
+                            "Code": "KU",
+                            "FlightNumber": "0420"
+                        },
+                        "OriginLocation": {
+                            "LocationCode": "DAC"
+                        }
+                    },
+                    {
+                        "ArrivalDateTime": "04-17T12:10",
+                        "DepartureDateTime": "04-17T09:20",
+                        "eTicket": true,
+                        "FlightNumber": "0671",
+                        "NumberInParty": "001",
+                        "ResBookDesigCode": "V",
+                        "Status": "NN",
+                        "DestinationLocation": {
+                            "LocationCode": "DXB"
+                        },
+                        "MarketingAirline": {
+                            "Code": "KU",
+                            "FlightNumber": "0671"
+                        },
+                        "OriginLocation": {
+                            "LocationCode": "KWI"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "Links": [
+        {
+            "rel": "self",
+            "href": "https://api.test.sabre.com/v2.3.0/passenger/records?mode=create"
+        },
+        {
+            "rel": "linkTemplate",
+            "href": "https://api.test.sabre.com/<version>/passenger/records?mode=<mode>"
+        }
+    ]
+}

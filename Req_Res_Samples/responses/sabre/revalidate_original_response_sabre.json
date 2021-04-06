@@ -1,0 +1,569 @@
+{
+    "groupedItineraryResponse": {
+        "version": "6.1.0",
+        "messages": [
+            {
+                "severity": "Info",
+                "type": "WORKERTHREAD",
+                "code": "TRANSACTIONID",
+                "text": "6384938244307569884"
+            },
+            {
+                "severity": "Info",
+                "type": "SERVER",
+                "code": "ASE032LPSCIL651.ATSE.CERT.ASCINT.SABRECIRRUS.COM",
+                "text": "27040"
+            },
+            {
+                "severity": "Info",
+                "type": "DRE",
+                "code": "RULEID",
+                "text": "25961"
+            },
+            {
+                "severity": "Info",
+                "type": "DEFAULT",
+                "code": "RULEID",
+                "text": "25959"
+            }
+        ],
+        "statistics": {
+            "itineraryCount": 1
+        },
+        "scheduleDescs": [
+            {
+                "id": 1,
+                "frequency": "******S",
+                "stopCount": 0,
+                "eTicketable": true,
+                "totalMilesFlown": 2640,
+                "elapsedTime": 380,
+                "departure": {
+                    "airport": "DAC",
+                    "city": "DAC",
+                    "country": "BD",
+                    "time": "01:45:00+06:00"
+                },
+                "arrival": {
+                    "airport": "KWI",
+                    "city": "KWI",
+                    "country": "KW",
+                    "time": "05:05:00+03:00",
+                    "terminal": "4"
+                },
+                "carrier": {
+                    "marketing": "KU",
+                    "marketingFlightNumber": 420,
+                    "operating": "KU",
+                    "operatingFlightNumber": 420,
+                    "equipment": {
+                        "code": "77W",
+                        "typeForFirstLeg": "W",
+                        "typeForLastLeg": "W"
+                    }
+                }
+            },
+            {
+                "id": 2,
+                "frequency": "*MTWTFS",
+                "stopCount": 0,
+                "eTicketable": true,
+                "totalMilesFlown": 530,
+                "elapsedTime": 120,
+                "departure": {
+                    "airport": "KWI",
+                    "city": "KWI",
+                    "country": "KW",
+                    "time": "09:35:00+03:00",
+                    "terminal": "4"
+                },
+                "arrival": {
+                    "airport": "DXB",
+                    "city": "DXB",
+                    "country": "AE",
+                    "time": "12:35:00+04:00",
+                    "terminal": "3"
+                },
+                "carrier": {
+                    "marketing": "KU",
+                    "marketingFlightNumber": 671,
+                    "operating": "KU",
+                    "operatingFlightNumber": 671,
+                    "equipment": {
+                        "code": "320",
+                        "typeForFirstLeg": "N",
+                        "typeForLastLeg": "N"
+                    }
+                }
+            }
+        ],
+        "taxDescs": [
+            {
+                "id": 1,
+                "code": "ZR",
+                "amount": 115,
+                "currency": "BDT",
+                "description": "INTERNATIONAL ADVANCED PASSENGER INFORMATION FEE ARRIVALS",
+                "publishedAmount": 5,
+                "publishedCurrency": "AED",
+                "station": "KWI",
+                "country": "AE"
+            },
+            {
+                "id": 2,
+                "code": "GZ",
+                "amount": 280,
+                "currency": "BDT",
+                "description": "AIRPORT SERVICE CHARGE  INTERNATIONAL",
+                "publishedAmount": 1.0,
+                "publishedCurrency": "KWD",
+                "station": "KWI",
+                "country": "KW"
+            },
+            {
+                "id": 3,
+                "code": "P8",
+                "amount": 842,
+                "currency": "BDT",
+                "description": "PASSENGER SECURITY FEE",
+                "publishedAmount": 10.0,
+                "publishedCurrency": "USD",
+                "station": "DAC",
+                "country": "BD"
+            },
+            {
+                "id": 4,
+                "code": "P7",
+                "amount": 842,
+                "currency": "BDT",
+                "description": "AIRPORT DEVELOPMENT FEE",
+                "publishedAmount": 10.0,
+                "publishedCurrency": "USD",
+                "station": "DAC",
+                "country": "BD"
+            },
+            {
+                "id": 5,
+                "code": "L2",
+                "amount": 280,
+                "currency": "BDT",
+                "description": "TRANSFER FEE",
+                "publishedAmount": 1.0,
+                "publishedCurrency": "KWD",
+                "station": "KWI",
+                "country": "KW"
+            },
+            {
+                "id": 6,
+                "code": "UT3",
+                "amount": 3000,
+                "currency": "BDT",
+                "description": "TRAVEL TAX",
+                "publishedAmount": 3000,
+                "publishedCurrency": "BDT",
+                "station": "DAC",
+                "country": "BD"
+            },
+            {
+                "id": 7,
+                "code": "OW2",
+                "amount": 2000,
+                "currency": "BDT",
+                "description": "DOMESTIC AND INTERNATIONAL EXCISE DUTY TAX",
+                "publishedAmount": 2000,
+                "publishedCurrency": "BDT",
+                "station": "DAC",
+                "country": "BD"
+            },
+            {
+                "id": 8,
+                "code": "YX",
+                "amount": 68,
+                "currency": "BDT",
+                "description": "PASSENGER SERVICE CHARGE",
+                "publishedAmount": 0.8,
+                "publishedCurrency": "USD",
+                "station": "KWI",
+                "country": "KW"
+            },
+            {
+                "id": 9,
+                "code": "E5",
+                "amount": 328,
+                "currency": "BDT",
+                "description": "VALUE ADDED TAX",
+                "publishedAmount": 328,
+                "publishedCurrency": "BDT",
+                "station": "DAC",
+                "country": "BD"
+            },
+            {
+                "id": 10,
+                "code": "BD",
+                "amount": 500,
+                "currency": "BDT",
+                "description": "EMBARKATION FEE",
+                "publishedAmount": 500,
+                "publishedCurrency": "BDT",
+                "station": "DAC",
+                "country": "BD"
+            }
+        ],
+        "taxSummaryDescs": [
+            {
+                "id": 1,
+                "code": "ZR",
+                "amount": 115,
+                "currency": "BDT",
+                "description": "INTERNATIONAL ADVANCED PASSENGER INFORMATION FEE ARRIVALS",
+                "publishedAmount": 5,
+                "publishedCurrency": "AED",
+                "station": "KWI",
+                "country": "AE"
+            },
+            {
+                "id": 2,
+                "code": "GZ",
+                "amount": 280,
+                "currency": "BDT",
+                "description": "AIRPORT SERVICE CHARGE  INTERNATIONAL",
+                "publishedAmount": 1.0,
+                "publishedCurrency": "KWD",
+                "station": "KWI",
+                "country": "KW"
+            },
+            {
+                "id": 3,
+                "code": "P8",
+                "amount": 842,
+                "currency": "BDT",
+                "description": "PASSENGER SECURITY FEE",
+                "publishedAmount": 10.0,
+                "publishedCurrency": "USD",
+                "station": "DAC",
+                "country": "BD"
+            },
+            {
+                "id": 4,
+                "code": "P7",
+                "amount": 842,
+                "currency": "BDT",
+                "description": "AIRPORT DEVELOPMENT FEE",
+                "publishedAmount": 10.0,
+                "publishedCurrency": "USD",
+                "station": "DAC",
+                "country": "BD"
+            },
+            {
+                "id": 5,
+                "code": "L2",
+                "amount": 280,
+                "currency": "BDT",
+                "description": "TRANSFER FEE",
+                "publishedAmount": 1.0,
+                "publishedCurrency": "KWD",
+                "station": "KWI",
+                "country": "KW"
+            },
+            {
+                "id": 6,
+                "code": "UT3",
+                "amount": 3000,
+                "currency": "BDT",
+                "description": "TRAVEL TAX",
+                "publishedAmount": 3000,
+                "publishedCurrency": "BDT",
+                "station": "DAC",
+                "country": "BD"
+            },
+            {
+                "id": 7,
+                "code": "OW2",
+                "amount": 2000,
+                "currency": "BDT",
+                "description": "DOMESTIC AND INTERNATIONAL EXCISE DUTY TAX",
+                "publishedAmount": 2000,
+                "publishedCurrency": "BDT",
+                "station": "DAC",
+                "country": "BD"
+            },
+            {
+                "id": 8,
+                "code": "YX",
+                "amount": 68,
+                "currency": "BDT",
+                "description": "PASSENGER SERVICE CHARGE",
+                "publishedAmount": 0.8,
+                "publishedCurrency": "USD",
+                "station": "KWI",
+                "country": "KW"
+            },
+            {
+                "id": 9,
+                "code": "E5",
+                "amount": 328,
+                "currency": "BDT",
+                "description": "VALUE ADDED TAX",
+                "publishedAmount": 0.15,
+                "publishedCurrency": "BDT",
+                "station": "DAC",
+                "country": "BD"
+            },
+            {
+                "id": 10,
+                "code": "BD",
+                "amount": 500,
+                "currency": "BDT",
+                "description": "EMBARKATION FEE",
+                "publishedAmount": 500,
+                "publishedCurrency": "BDT",
+                "station": "DAC",
+                "country": "BD"
+            }
+        ],
+        "fareComponentDescs": [
+            {
+                "id": 1,
+                "governingCarrier": "KU",
+                "fareAmount": 265.0,
+                "fareCurrency": "USD",
+                "fareBasisCode": "VOWBD1",
+                "farePassengerType": "ADT",
+                "publishedFareAmount": 265.0,
+                "oneWayFare": true,
+                "directionality": "FROM",
+                "direction": "EH",
+                "notValidBefore": "2021-04-17",
+                "notValidAfter": "2021-04-17",
+                "applicablePricingCategories": "4 5 8 9 10 11 12 15 16 18 23",
+                "vendorCode": "ATP",
+                "fareTypeBitmap": "00",
+                "fareType": "ER",
+                "fareTariff": "33",
+                "fareRule": "BD01",
+                "segments": [
+                    {
+                        "segment": {}
+                    },
+                    {
+                        "segment": {}
+                    }
+                ]
+            }
+        ],
+        "baggageAllowanceDescs": [
+            {
+                "id": 1,
+                "pieceCount": 2
+            }
+        ],
+        "legDescs": [
+            {
+                "id": 1,
+                "elapsedTime": 770,
+                "schedules": [
+                    {
+                        "ref": 1
+                    },
+                    {
+                        "ref": 2
+                    }
+                ]
+            }
+        ],
+        "itineraryGroups": [
+            {
+                "groupDescription": {
+                    "legDescriptions": [
+                        {
+                            "departureDate": "2021-04-17",
+                            "departureLocation": "DAC",
+                            "arrivalLocation": "DXB"
+                        }
+                    ]
+                },
+                "itineraries": [
+                    {
+                        "id": 1,
+                        "pricingSource": "WPNI1_ITIN",
+                        "currentItinerary": true,
+                        "legs": [
+                            {
+                                "ref": 1
+                            }
+                        ],
+                        "pricingInformation": [
+                            {
+                                "pricingSubsource": "MIP",
+                                "revalidated": true,
+                                "fare": {
+                                    "validatingCarrierCode": "KU",
+                                    "vita": true,
+                                    "eTicketable": true,
+                                    "governingCarriers": "KU",
+                                    "passengerInfoList": [
+                                        {
+                                            "passengerInfo": {
+                                                "passengerType": "ADT",
+                                                "passengerNumber": 1,
+                                                "nonRefundable": false,
+                                                "fareComponents": [
+                                                    {
+                                                        "ref": 1,
+                                                        "segments": [
+                                                            {
+                                                                "segment": {
+                                                                    "bookingCode": "V",
+                                                                    "cabinCode": "Y",
+                                                                    "mealCode": "BM",
+                                                                    "seatsAvailable": 7
+                                                                }
+                                                            },
+                                                            {
+                                                                "segment": {
+                                                                    "bookingCode": "V",
+                                                                    "cabinCode": "Y",
+                                                                    "mealCode": "BM",
+                                                                    "seatsAvailable": 7,
+                                                                    "availabilityBreak": true
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "taxes": [
+                                                    {
+                                                        "ref": 1
+                                                    },
+                                                    {
+                                                        "ref": 10
+                                                    },
+                                                    {
+                                                        "ref": 9
+                                                    },
+                                                    {
+                                                        "ref": 7
+                                                    },
+                                                    {
+                                                        "ref": 4
+                                                    },
+                                                    {
+                                                        "ref": 3
+                                                    },
+                                                    {
+                                                        "ref": 6
+                                                    },
+                                                    {
+                                                        "ref": 2
+                                                    },
+                                                    {
+                                                        "ref": 5
+                                                    },
+                                                    {
+                                                        "ref": 8
+                                                    }
+                                                ],
+                                                "taxSummaries": [
+                                                    {
+                                                        "ref": 10
+                                                    },
+                                                    {
+                                                        "ref": 6
+                                                    },
+                                                    {
+                                                        "ref": 7
+                                                    },
+                                                    {
+                                                        "ref": 9
+                                                    },
+                                                    {
+                                                        "ref": 2
+                                                    },
+                                                    {
+                                                        "ref": 8
+                                                    },
+                                                    {
+                                                        "ref": 5
+                                                    },
+                                                    {
+                                                        "ref": 1
+                                                    },
+                                                    {
+                                                        "ref": 4
+                                                    },
+                                                    {
+                                                        "ref": 3
+                                                    }
+                                                ],
+                                                "currencyConversion": {
+                                                    "from": "USD",
+                                                    "to": "BDT",
+                                                    "exchangeRateUsed": 84.2
+                                                },
+                                                "fareMessages": [
+                                                    {
+                                                        "type": "N",
+                                                        "code": "0",
+                                                        "carrier": "KU",
+                                                        "info": "VALID ON KU ONLY/NON END"
+                                                    },
+                                                    {
+                                                        "type": "W",
+                                                        "code": "0",
+                                                        "info": "VALIDATING CARRIER - KU"
+                                                    }
+                                                ],
+                                                "passengerTotalFare": {
+                                                    "totalFare": 30568,
+                                                    "totalTaxAmount": 8255,
+                                                    "currency": "BDT",
+                                                    "baseFareAmount": 265.0,
+                                                    "baseFareCurrency": "USD",
+                                                    "equivalentAmount": 22313,
+                                                    "equivalentCurrency": "BDT",
+                                                    "constructionAmount": 265.0,
+                                                    "constructionCurrency": "NUC",
+                                                    "commissionPercentage": 0,
+                                                    "commissionAmount": 0,
+                                                    "exchangeRateOne": 1.0
+                                                },
+                                                "baggageInformation": [
+                                                    {
+                                                        "provisionType": "A",
+                                                        "airlineCode": "KU",
+                                                        "segments": [
+                                                            {
+                                                                "id": 0
+                                                            },
+                                                            {
+                                                                "id": 1
+                                                            }
+                                                        ],
+                                                        "allowance": {
+                                                            "ref": 1
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "totalFare": {
+                                        "totalPrice": 30568,
+                                        "totalTaxAmount": 8255,
+                                        "currency": "BDT",
+                                        "baseFareAmount": 265.0,
+                                        "baseFareCurrency": "USD",
+                                        "constructionAmount": 265.0,
+                                        "constructionCurrency": "NUC",
+                                        "equivalentAmount": 22313,
+                                        "equivalentCurrency": "BDT"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
